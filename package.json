@@ -1,0 +1,17 @@
+{
+  "name": "archax",
+  "version": "1.0.0",
+  "description": "Technical test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "test": "npx jest src/tests/databaseService.test.js"
+  },
+  "author": "Taiwo Famurewa",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
